@@ -28,6 +28,7 @@ export const Header = ({allProducts,
 		countProducts,
 		setCountProducts,
 		setTotal})  => {
+			
 			//usar el useState para estado active y setear el estado
 		const [active, setActive] = useState(false);
 		const [mostrar, setMostrar] = useState(true)
